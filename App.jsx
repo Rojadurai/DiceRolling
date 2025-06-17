@@ -4,6 +4,8 @@ import RollDice from './components/RollDice';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
+
+// Add all solid icons to the library
 library.add(fas);
 
 function App() {
@@ -20,10 +22,10 @@ function App() {
           </button>
         </div>
       ) : (
-        <>
+        <div className="GameArea">
           <h2 className="GameHeader">🎯 Roll the Dice</h2>
           <RollDice />
-        </>
+        </div>
       )}
     </div>
   );
