@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #e977a6,#6e51d4fd);
+  background: linear-gradient(to right, #e977a6, rgba(110, 81, 212, 0.99));
   color: white;
   min-height: 100vh;
   display: flex;
@@ -51,6 +51,12 @@ body {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
