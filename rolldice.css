@@ -1,0 +1,36 @@
+.RollDice {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.RollDice-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Die {
+  font-size: 60px;
+  margin: 0 10px;
+}
+
+.RollDice-result {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 15px 40px;        /* 🔼 Bigger padding */
+  font-size: 20px;           /* 🔼 Larger text */
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #fa9521;
+  color: rgb(255, 255, 255);
+}
+
+button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
