@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e977a6,#6e51d4fd);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.Welcome {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.App-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.App-tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.StartButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #eb8322;
+  border: none;
+  color: #333;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+.StartButton:hover {
+  background-color: #e28c8c;
+}
+
+.GameHeader {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
