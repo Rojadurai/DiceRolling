@@ -1,7 +1,9 @@
 .Die {
-  font-size: 6rem;
+  font-size: 6rem; /* Icon size */
   margin: 1rem;
+  display: inline-block;
   transition: transform 0.3s ease;
+  color: white; /* Matches your theme */
 }
 
 .Die-shaking {
