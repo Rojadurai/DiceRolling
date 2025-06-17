@@ -1,6 +1,7 @@
 .RollDice {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 15px; /* ✅ Moved inside selector */
   font-family: Arial, sans-serif;
 }
 
@@ -17,17 +18,22 @@
 
 .RollDice-result {
   font-size: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* Optional for spacing below result */
 }
 
 button {
-  padding: 15px 40px;        /* 🔼 Bigger padding */
-  font-size: 20px;           /* 🔼 Larger text */
+  padding: 15px 40px;       /* 🔼 Bigger padding */
+  font-size: 20px;          /* 🔼 Larger text */
   cursor: pointer;
   border: none;
   border-radius: 8px;
   background-color: #fa9521;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:enabled {
+  background-color: #e07b09;
 }
 
 button:disabled {
